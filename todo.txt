@@ -22,6 +22,20 @@ git remote -v
 #====add one directory to github
 git init
 git add *
-git remote add origin url
-git push origin master 
+git commit
+git remote add origin     https:url
+git push -u origin master    
+git push origin master  
+
+or [ from master to main ]
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main   ***
+git remote add origin      https://github.com/username/repo-name.git
+git push -u origin main
+
+
+
+
 
