@@ -35,6 +35,15 @@ git branch -M main   ***
 git remote add origin      https://github.com/username/repo-name.git
 git push -u origin main
 
+## controversiy between master and main
+git init--produces master in local server while main is in the github
+--Solution A - if you want to name the branch master
+**git push -u origin master** instead of **git push -u origin main**
+
+Or 
+--Solution B - if you want to name the branch main
+
+**git checkout -B main** before **git push -u origin main**
 
 
 
