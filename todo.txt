@@ -19,5 +19,9 @@ git clone <repo_path>
 git branch -a
 git remote -v
 
-
+#====add one directory to github
+git init
+git add *
+git remote add origin url
+git push origin master 
 
