@@ -1,0 +1,23 @@
+git config --global user.email "xiuhua.zhu@uni-hamburg.de"
+git add filenaame_to_be_pushed
+git commit -m "--xx--"
+git push
+
+##===pull a branch
++++illustration plot: https://komodor.com/blog/solving-fatal-not-a-git-repository-error/
+git clone --branch <branch_name> url (fetch only the specified branch)
+or
+git clone -b <branchname> url (fetch all branches, but checkout to the specified one)
+git clone -b <branchname> --single-branch url (fetch only the specified branch)
+
+
+##===git version
+git --version
+
+##===git clone
+git clone <repo_path>
+git branch -a
+git remote -v
+
+
+
